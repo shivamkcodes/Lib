@@ -117,16 +117,16 @@ body {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 .social-menu ul li:nth-child(1) a:hover {
-    background-color: #3b5999;
+    background-color: #3b993b;
 }
 .social-menu ul li:nth-child(2) a:hover {
     background-color: #55acee;
 }
 .social-menu ul li:nth-child(3) a:hover {
-    background-color: #e4405f;
+    background-color: #3b993b;
 }
 .social-menu ul li:nth-child(4) a:hover {
-    background-color: #ce1212;
+    background-color: #c41111;
 }
 .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;

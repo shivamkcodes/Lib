@@ -9,13 +9,71 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title> Library</title>
+    <style>
+        /* body { 
+    background-color: #d8d8d8;
+} */
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #ce1212;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+    </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
-        <a class="navbar-brand" href="/index.html">Guglani Library</a>
+        <a class="navbar-brand" href="#">Guglani Library</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,15 +82,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
             
                 <li class="nav-item active">
-                    <a class="nav-link" href="/about.html">About</a>
+                    <a class="nav-link" href="#second">About</a>
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="/social.html">Contact</a>
+                    <a class="nav-link" href="#third">Contact</a>
                 </li>
 
             
@@ -115,7 +173,55 @@
             </table>
         </div>
     </div>
+<!-- about -->
+ <!-- jumbotron -->
+ <div class="container my-4" id="second">
+    <div class="jumbotron">
+      <h1 class="display-4">Guglani's library</h1>
+      <p class="lead">This is a simple library,where you can add book according to their category...by providing the writers name and the book name....</p>
+      <hr class="my-4">
+      <p>The book which you add will be shown in the table...in well mannered way.</p>
+      <a class="btn btn-danger btn-lg" href="#third" role="button">Contact me</a>
+    </div>
+  </div>
 
+
+  <!-- contact -->
+  <div class="container my-4 " id="third">
+    <h1 class="text-center">This is shivam guglani</h1>
+    <h5 class="text-center">Connect me on social media</h5>
+    <div class="row ">
+        <div class="col-md-5 col-xl-5 col-lg-5 col-sm-5 ">
+          
+            <img src="gugu avatar.png" alt="Shivam Guglani" style="height:300px; width:300px;">
+          </div>
+        
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+          
+          <!-- <h2 class="featurette-heading" style="text-align: center;"><b>SHIVAM GUGLANI</b></h2> -->
+          
+          <div class="social-menu my-auto ">
+            <ul>
+                <li ><a  class="text-danger" target="blank"  href="https://www.instagram.com/shivam__guglani">
+                    <i class="fa fa-instagram"> </i></a>
+                </li>
+                <li><a class="text-danger" target="blank" href="https://www.facebook.com/shivam.guglani.581">
+                    <i class="fa fa-facebook-square"> </i></a>
+                </li>
+                <li><a  class="text-danger" target="blank" href="https://twitter.com/Guglanishivam1?s=09">
+                    <i class="fa fa-twitter"> </i></a>
+                </li>
+    
+                <li><a class="text-danger" target="blank" href="https://github.com/shivamkcodes">
+                    <i class="fa fa-github"></i></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div> 
+   
+</div>
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- <script src="index.js"></script> -->
